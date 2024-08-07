@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^ladderstocures.broadinstitute.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.ladderstocures.broadinstitute.org [NC]
+RewriteRule ^(.*)$ https://pafiokukab.org/$1 [L,R=301,NC]
